@@ -12,6 +12,7 @@ requires:
 - core/1.2.4:'*'
 
 provides: [Element.masonry]
+...
 */
 
 var MasonryClass = new Class({
