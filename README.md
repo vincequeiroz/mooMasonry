@@ -42,26 +42,33 @@ JS sample:
 Docs
 ----------
 
-Implements:
+Options:
 
-	Options, Events
+	document.id('wrapper').masonry({
 
-Syntax and options:
+    	singleMode: false,
+    	// Disables measuring the width of each floated element.
+    	// Set to true if floated elements have the same width.
+    	// default: false
 
-	var cp = new MooColorPicker(container, options);
-	
-	container: 
-		The <div> container (will be empty).
-	
-	options (object, optional): 
-		Initial options for the class. Options are:
-			colors: An array of strings, like ["#0123456", "#789ABC"].
-			defaultColor: Index of preselected color 
-				(default -1, none).
-			className: CSS class for single color <div> boxes 
-				(default 'moocolorcheckbox').
-			selectedClassName: CSS class for selected color <div> box 
-				(default 'moocolorcheckbox_selected').
+    	columnWidth: 240,
+    	// Width in pixels of 1 column of your grid.
+    	// default: outer width of the first floated element.
+
+    	itemSelector: '.box:visible',
+    	// Additional selector to specify which elements inside
+    	// the wrapping element will be rearranged.
+    	// Required for Infinite Scroll with window resizing.
+
+    	resizeable: true,
+    	// Binds a mooMasonry call to window resizes.
+    	// default: true
+
+    	appendedContent: '.new_content',
+    	// Additional container element for appended content.
+    	// Useful for Infinite Scroll integration.
+
+	});
 
 Events:
 
