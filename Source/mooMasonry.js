@@ -182,10 +182,8 @@ var MasonryClass = new Class({
 		}
 
 		// layout logic
-		console.log(this.options.singleMode);
 		if (this.options.singleMode)
    		{
-   			console.log(this.colW);
 			for (var k = 0; k < this.bricks.length; k++)
       		{
 				var brick = this.bricks[k];
@@ -194,7 +192,6 @@ var MasonryClass = new Class({
 		}
 		else
 		{
-			console.log(this.colW);
 			for (var k = 0; k < this.bricks.length; k++)
 			{
 				var brick = this.bricks[k];
