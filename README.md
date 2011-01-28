@@ -3,7 +3,7 @@ mooMasonry
 
 mooMasonry is a layout plugin for Mootools. Think of it as the flip side of CSS floats. Whereas floating arranges elements horizontally then vertically, mooMasonry arranges elements vertically then horizontally according to a grid. The result minimizes vertical gaps between elements of varying height, just like a mason fitting stones in a wall.
 
-![Screenshot](http://github.com/orefalo/mooMasonry/raw/master/Logo.png)
+![Screenshot](https://github.com/orefalo/mooMasonry/raw/master/Logo.png)
 
 Comparison Example
 ------------------
