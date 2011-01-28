@@ -9,10 +9,10 @@ Comparison Example
 ------------------
 
 CSS Floats
-![Screenshot](http://github.com/orefalo/mooMasonry/raw/master/screen1.png)
+![Screenshot](https://github.com/orefalo/mooMasonry/raw/master/screen1.png)
 
 mooMasonry
-![Screenshot](http://github.com/orefalo/mooMasonry/raw/master/screen2.png)
+![Screenshot](https://github.com/orefalo/mooMasonry/raw/master/screen2.png)
 
 How to use
 ----------
